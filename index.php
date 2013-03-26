@@ -187,23 +187,33 @@
 <body id="top">
 <div class="header ">
     <div class="logo">
-        <span class=" logo_a"> <span class="menu_logo"> <img src="images/img/olamundo.png" width="130px" height="35px"  /> </span> </span>
+        <span class=" logo_a"> <span class="menu_logo"> <img src="images/img/olamundotrans.png" width="130px" height="35px"  /> </span> </span>
     </div>
     <div id="movers-row">
         <div class="main">
-            <a href="#1" class="cross-link menu_home"> <span class="nav-thumb menu_tab"> Home </span> </a>
+            <a href="#1" class="cross-link menu_home">
+            <img src="images/img/home1.png" class="menu_icons_square" />
+             <span class="nav-thumb menu_tab"> Home </span> </a>
         </div>
         <div class="main">
-            <a href="#2" class="cross-link menu_blog"> <span  class="nav-thumb menu_tab"> Blog </span> </a>
+            <a href="#2" class="cross-link menu_blog"> 
+            	 <img src="images/img/Blogt.png" class="menu_icons" />
+            	<span  class="nav-thumb menu_tab"> Blog </span> </a>
         </div>
         <div class="main">
-            <a href="#3" class="cross-link menu_news"> <span  class="nav-thumb menu_tab" > News </span> </a>
+            <a href="#3" class="cross-link menu_news">
+            	 <img src="images/img/news1.png" class="menu_icons" />
+            	 <span  class="nav-thumb menu_tab" > News </span> </a>
         </div>
         <div class="main">
-            <a href="#4" class="cross-link menu_stories"> <span class="nav-thumb menu_tab"> Stories </span> </a>
+            <a href="#4" class="cross-link menu_stories">
+            	 <img src="images/img/stories1.png" class="menu_icons" />
+            	 <span class="nav-thumb menu_tab"> Stories </span> </a>
         </div>
         <div class="main">
-            <a href="#5" class="cross-link menu_support"> <span class="nav-thumb menu_tab"> Support </span> </a>
+            <a href="#5" class="cross-link menu_support"> 
+            	 <img src="images/img/support1.png" class="menu_icons_square" />
+            	<span class="nav-thumb menu_tab"> Support </span> </a>
         </div>
     </div>  </div>
 <div id="page-wrap">
@@ -211,16 +221,25 @@
             <div id="main-photo-slider" class="main_content">
                 <div class="panelContainer">
                     <div class="panel slide_img" title="Panel 1">
-                        <div >
+                    	
+                   <div>
+                   	<img src="images/slider/landing_trans1.png" style="margin-left: auto;margin-right: auto;display: block;margin-top: 30px" />
+                   </div>
+                    	
+                    	
+                    	
+                    	
+                    	
+                    	
+          <!--               <div >
                             <img src="images/slider/slidetransparent.png"   class="home_img" alt="home_img"   />
                             <a href="http://www.apple.com/itunes/what-is/#store" target="_blank">
                                 <img src="images/slider/support3.png"   class="apple_icon" alt="home_img" />
                             </a>
                         </div><br><br><br><br><br><br>
                         <p id="pink_line" ></p>
-         <!--   <div id="content">		 
-			<div id="container"> -->
-				<div id="carousel">
+    -->
+<!-- 				<div id="carousel">
 					<div id="slide01" class="slide">			
 							<span  class="home_paragrah"> 
 							 <b>See how it works </b>
@@ -296,20 +315,20 @@
 							</span>
 					</div>
 			
-				</div>
+				</div> -->
 				<!-- <a href="#" id="ui-carousel-next"><span>next</span></a>
 				<a href="#" id="ui-carousel-prev"><span>prev</span></a> -->
-				<div id="pages"></div>
+				<!-- <div id="pages"></div> -->
 			<!-- </div>
 		</div> -->
-                        <p id="pink_line" ></p>
+                     <!--    <p id="pink_line" ></p>
                         <div id ="about"  class="home_second_paragraph">
                             About Olamundo ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
                             et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
                             ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
                             nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
                             est laborumLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                        </div>
+                        </div> -->
                     </div>                    
                    <div class="panel slide_img" title="Panel 2">
                         <div class="support">
@@ -476,7 +495,7 @@
                             <div class="support">
                                 <br><br>
                                 <p class="support_title">
-                                   <img src="images/slider/support1.png"   alt=""  class="support_title_img" /> Welcome to our Help Center, we’d love to help you !
+                           Welcome to our Help Center, we’d love to help you !
                                 </p>
                                 <p>
                                     
@@ -750,7 +769,7 @@
                 <a href="https://www.facebook.com/" target="_blank"> <img src="images/footer/fb.png" class="social_icons"   alt="temp-thumb" /></a>
             </li>
             <li>
-                <a href="http://www.apple.com/itunes/what-is/#store" target="_blank"> <img src="images/footer/apple.png" class="footer_apple_icon"   alt="temp-thumb" /></a>
+                <a href="http://www.apple.com/itunes/what-is/#store" target="_blank"> <img src="images/footer/applestore.png" class="footer_apple_icon"   alt="temp-thumb" /></a>
             </li>
         </ul>
     </div>
